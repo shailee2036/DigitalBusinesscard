@@ -1,23 +1,36 @@
 import logo from './logo.svg';
 import './App.css';
+// import Card from './Components/Card';
+// import data from './Components/data'
+// import Hero from './Components/Hero';
+// import NavBar from './Components/NavBar';
+import DigitalBusinessCard from './Components/DigitalBusinessCard';
 
 function App() {
+  // const cards = data.map(item =>{
+  //   return(
+  //     <Card 
+  //               key={item.id}
+  //               item={item}
+  //               // img={item.coverImg}
+  //               // rating={item.stats.rating}
+  //               // reviewCount={item.stats.reviewCount}
+  //               // location={item.location}
+  //               // title={item.title}
+  //               // price={item.price}
+  //               // openSpots={item.openSpots}
+  //           />
+  //   )
+  // })
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <NavBar />
+      <Hero/>
+      <section className='cards-list'>
+      {cards}
+      </section> */}
+      <DigitalBusinessCard/>
+    
     </div>
   );
 }
